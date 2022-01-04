@@ -4,5 +4,6 @@ module.exports = function reverse(n) {
     for (let i = 0;i < string.length;i++) {
         result = `${string[i]}${result}`;
     }
+
     return parseInt(result);
 }
